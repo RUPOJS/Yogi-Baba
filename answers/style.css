@@ -1,0 +1,42 @@
+@import 'grid.less';
+@column-width: 60;
+@gutter-width: 20;
+@columns: 12;
+@total-width: 100%;
+body {font-family:tahoma;}
+h1{font-size:45px; color:orange;}
+h2{color:orange;}
+span {color:red; font-size:70px;}
+p {color:red; font-size:33px;}
+
+#container {
+text-align:center;
+}
+
+#submitbutton {
+font-size:30px;
+color:white;
+background:orange;
+border:2px solid #DDD;
+padding:5px 15px 5px 15px;
+border-radius:15px;
+}
+
+#buttonlink{
+text-decoration:none;
+}
+
+#questions{
+width:490px;
+font-family:arial;
+}
+
+#answers{
+margin-top:30px;
+font-size:34px;
+font-family:Tahoma;
+}
+
+#statement{
+color:green;
+}
